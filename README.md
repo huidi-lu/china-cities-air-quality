@@ -1,14 +1,14 @@
 ## Air Quality Data of Major China Cities
 Python version scrapers, inspired by [`@feelinglucky`](https://github.com/feelinglucky) and [`his project`](http://www.gracecode.com/aqi.html) of mainland china AQI database.<br><br>
 `Official AQI` folder contains data crawled from MEP datacenter(http://datacenter.mep.gov.cn). The data is stored in the file `AQI.csv`, ranging from 2000-6-5 to 2015-3-27. There are three columns in it, namely `City`, `AQI`, `Date`(very easy to understand). If you wish to get this updated, please run the scraper and enter correct dates.<br>
-`IPE Data` folder contains detailed data such as pm10, SO<sub>2</sub>, CO, average dust, in the file `ipedata.csv`. Original scraper is also included. If you wish to run this spider again(though I do not recommand so), please also download `spacedict.csv` to the same directory, as it translates the city name to its code used by the website. Personally I am very grateful for their work. If you also find the infomation useful, please consider donating to them! (link:[Support--IPE](http://www.ipe.org.cn/En/about/line.aspx))
+`IPE Data` folder contains detailed data such as PM<sub>10</sub>, SO<sub>2</sub>, CO, average dust, in the file `ipedata.csv`. Original scraper is also included. If you wish to run this spider again(though I do not recommand so), please also download `spacedict.csv` to the same directory, as it translates the city name to its code used by the website. Personally I am very grateful for their work. If you also find the information useful, please consider donating to them! (link:[Support--IPE](http://www.ipe.org.cn/En/about/line.aspx))
 
 ###Reference:
-1. [Air quality index - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Air_quality_index#Mainland_China)
+1. <b>[Air quality index - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Air_quality_index#Mainland_China)</b>
 <p>China's Ministry of Environmental Protection (<a href="http://en.wikipedia.org/wiki/Ministry_of_Environmental_Protection_of_the_People%27s_Republic_of_China" title="Ministry of Environmental Protection of the People's Republic of China">MEP</a>) is responsible for measuring the level of air pollution in China. As of 1 January 2013, MEP monitors daily pollution level in 163 of its major cities. The API level is based on the level of 6 atmospheric pollutants, namely sulfur dioxide (SO<sub>2</sub>), nitrogen dioxide (NO<sub>2</sub>), suspended particulates smaller than 10 μm in <a href="http://en.wikipedia.org/wiki/Aerodynamic_diameter" title="Aerodynamic diameter" class="mw-redirect">aerodynamic diameter</a> (PM<sub>10</sub>), suspended particulates smaller than 2.5 μm in <a href="http://en.wikipedia.org/wiki/Aerodynamic_diameter" title="Aerodynamic diameter" class="mw-redirect">aerodynamic diameter</a> (PM<sub>2.5</sub>)， carbon monoxide (CO), and ozone (O<sub>3</sub>) measured at the monitoring stations throughout each city.</a></sup></p>
-<p><b>AQI Mechanics</b><br>
+<p>  AQI Mechanics<br>
 An individual score(IAQI) is assigned to the level of each pollutant and the final AQI is the highest of those 6 scores. The pollutants can be measured quite differently. PM<sub>2.5</sub>、PM<sub>10</sub> concentration are measured as average per 24h. SO<sub>2</sub>, NO<sub>2</sub>, O<sub>3</sub>, CO are measured as average per hour. The final API value is calculated per hour according to a formula published by the MEP.</a></sup></p>
-<p><b>AQI and Health Implications (HJ 663-2012)</p>
+<p>  AQI and Health Implications (HJ 663-2012)</p>
 
 <table class="wikitable">
 <tbody><tr>
