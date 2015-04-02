@@ -1,9 +1,9 @@
 ## Air Quality Data of Major China Cities
 Python version scrapers, inspired by [`@feelinglucky`](https://github.com/feelinglucky) and [`his project`](http://www.gracecode.com/aqi.html) of mainland china AQI database.<br><br>
 `Official AQI` folder contains data crawled from MEP datacenter(http://datacenter.mep.gov.cn). The data is stored in the file `AQI.csv`, ranging from 2000-6-5 to 2015-3-27. There are three columns in it, namely `City`, `AQI`, `Date`(very easy to understand). If you wish to get this updated, please run the scraper and enter correct dates.<br>
-`IPE Data` folder contains detailed data such as PM<sub>10</sub>, SO<sub>2</sub>, CO, average dust, in the file `ipedata.csv`. Original scraper is also included. If you wish to run this spider again(though I do not recommand so), please also download `spacedict.csv` to the same directory, as it translates the city name to its code used by the website. Personally I am very grateful for their work. If you also find the information useful, please consider donating to them! (link:[Support--IPE](http://www.ipe.org.cn/En/about/line.aspx))
-`US Ambassy Data` folder contains data from us ambassy in Beijing(2008-2014), Shanghai(2011-2014), Guangzhou(2011-2014), Shenyang(2013-2014) and Chengdu(2012-2014).
-`Fetch_cnpm25_Data.py` is a spider which crawls data from http://www.cnpm25.com/.
+`IPE Data` folder contains detailed data such as PM<sub>10</sub>, SO<sub>2</sub>, CO, average dust, in the file `ipedata.csv`. Original scraper is also included. If you wish to run this spider again(though I do not recommand so), please also download `spacedict.csv` to the same directory, as it translates the city name to its code used by the website. Personally I am very grateful for their work. If you also find the information useful, please consider donating to them! (link:[Support--IPE](http://www.ipe.org.cn/En/about/line.aspx))<br>
+`US Ambassy Data` folder contains data from us ambassy in Beijing(2008-2014), Shanghai(2011-2014), Guangzhou(2011-2014), Shenyang(2013-2014) and Chengdu(2012-2014).<br>
+`Fetch_cnpm25_Data.py` is a spider which crawls data from http://www.cnpm25.com/.<br>
 
 ###Reference:
 1. <b>[Air quality index - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Air_quality_index#Mainland_China)</b>
