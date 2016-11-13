@@ -5,6 +5,16 @@ Python version scrapers, inspired by [`@feelinglucky`](https://github.com/feelin
 `US Ambassy Data` folder contains data from us ambassy in Beijing(2008-2014), Shanghai(2011-2014), Guangzhou(2011-2014), Shenyang(2013-2014) and Chengdu(2012-2014).<br>
 `Fetch_cnpm25_Data.py` is a spider which crawls data from http://www.cnpm25.com/.<br>
 
+###Data at a glance
+PM25_199801_200012<br>
+![PM25_199801_200012](https://raw.githubusercontent.com/Rudy1224/china-cities-air-quality/master/PM25_199801_200012.JPG)<br>
+
+PM25_201001_201212<br>
+![PM25_201001_201212](https://raw.githubusercontent.com/Rudy1224/china-cities-air-quality/master/PM25_201001_201212.JPG)<br>
+
+Provincial-level correlation between China's 'Open Up and Reform' policy and air qulity change<br>
+![scatter](https://raw.githubusercontent.com/Rudy1224/china-cities-air-quality/master/scatter - eng.png)
+
 ###Reference:
 1. <b>[Air quality index - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Air_quality_index#Mainland_China)</b>
 <p>China's Ministry of Environmental Protection (<a href="http://en.wikipedia.org/wiki/Ministry_of_Environmental_Protection_of_the_People%27s_Republic_of_China" title="Ministry of Environmental Protection of the People's Republic of China">MEP</a>) is responsible for measuring the level of air pollution in China. As of 1 January 2013, MEP monitors daily pollution level in 163 of its major cities. The API level is based on the level of 6 atmospheric pollutants, namely sulfur dioxide (SO<sub>2</sub>), nitrogen dioxide (NO<sub>2</sub>), suspended particulates smaller than 10 μm in <a href="http://en.wikipedia.org/wiki/Aerodynamic_diameter" title="Aerodynamic diameter" class="mw-redirect">aerodynamic diameter</a> (PM<sub>10</sub>), suspended particulates smaller than 2.5 μm in <a href="http://en.wikipedia.org/wiki/Aerodynamic_diameter" title="Aerodynamic diameter" class="mw-redirect">aerodynamic diameter</a> (PM<sub>2.5</sub>)， carbon monoxide (CO), and ozone (O<sub>3</sub>) measured at the monitoring stations throughout each city.</a></sup></p>
