@@ -4,6 +4,7 @@ Python version scrapers, inspired by [`@feelinglucky`](https://github.com/feelin
 `IPE Data` folder contains detailed data such as PM<sub>10</sub>, SO<sub>2</sub>, CO, average dust, in the file `ipedata.csv`. Original scraper is also included. If you wish to run this spider again(though I do not recommand so), please also download `spacedict.csv` to the same directory, as it translates the city name to its code used by the website. Personally I am very grateful for their work. If you also find the information useful, please consider donating to them! (link:[Support--IPE](http://www.ipe.org.cn/En/about/line.aspx))<br>
 `US Ambassy Data` folder contains data from us ambassy in Beijing(2008-2014), Shanghai(2011-2014), Guangzhou(2011-2014), Shenyang(2013-2014) and Chengdu(2012-2014).<br>
 `Fetch_cnpm25_Data.py` is a spider which crawls data from http://www.cnpm25.com/.<br>
+Another very useful source is [`Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2012`](http://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-avg-pm2-5-modis-misr-seawifs-aod-1998-2012).
 
 ###Data at a glance
 PM25_199801_200012<br>
